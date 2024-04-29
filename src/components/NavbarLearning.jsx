@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/navbar.css'
 import Button from 'react-bootstrap/Button'
 
-const Navbar = () => {
+const NavbarLearning = () => {
   return (
     <div className='navbar'>
         <ul>
@@ -14,4 +14,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default NavbarLearning

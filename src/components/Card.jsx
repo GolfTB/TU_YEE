@@ -9,7 +9,7 @@ const course = [
     {
         title: 'Internship 2',
         duration: '2 Hours',
-        icon: <BiLogoAndroid />,
+        icon: <BiLogoAndroid />
     },
     {
         title: 'Internship 3',
