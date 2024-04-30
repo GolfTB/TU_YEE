@@ -25,7 +25,7 @@ const Sidebar = () => {
         <Link to="/Accommodation" className="item">
           Accommodation
         </Link>
-        <Link to="/Community" className="item">
+        <Link to="/Communitypage" className="item">
           Community
         </Link>
       </nav>

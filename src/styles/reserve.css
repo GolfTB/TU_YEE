@@ -1,0 +1,90 @@
+.reserve-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+}
+.reserve-box {
+    background: #dde6ed;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; /*y*/
+    justify-content: space-evenly; /*x*/
+    /*justify-content: space-around; /*x*/
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    height: 300px;
+    transition: 0.3s ease-in-out;
+    color: #526d82;
+}
+.reserve-box:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.reserve-box img {
+    border-radius: 10px;
+    width: 65%;
+}
+.reservation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+}
+.reserve-learn {
+    border: 5px solid #526d82;
+    display: flex;
+    width: 90%;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+    gap: 10px;
+    font-weight: 500;
+}
+.reserve-learn img {
+    width: 80%;
+    height: 120px;
+    border-radius: 10px;
+}
+.reserve-learn h3 {
+    color: #526d82;
+}
+.reserve-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 20px;
+    width: 90%;
+}
+.re-form--size {
+    font-size: 14px;
+    font-weight: 400;
+}
+.reserve--but {
+    font-size: 14pt;
+    font-weight: 500;
+    height: auto;
+    border: 2px solid #526d82;
+
+}
+.reserve--but:hover {
+    background: #526d82;
+    border: 2px solid #ffffff;
+    color: #FFF;
+}
+.re-box {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    padding-right: 30px;
+    justify-content: end;
+}

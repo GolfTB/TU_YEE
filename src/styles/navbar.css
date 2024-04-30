@@ -45,7 +45,7 @@ button {
 }
 button:hover {
     color: #fff;
-    border: none;
+    border-color: none;
     background: #5a5959;
     transform: scale(1.04);
     cursor: pointer;

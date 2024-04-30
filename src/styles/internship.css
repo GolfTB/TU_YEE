@@ -10,7 +10,7 @@
     flex-direction: column;
 
 }
-.intern--header {
+.sub--header {
     display: flex;
     align-items: center;
     justify-content: space-between;

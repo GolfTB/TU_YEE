@@ -68,3 +68,40 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
+
+.list2 {
+    display: inline-block;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+.list2:hover {
+    background: #dde6ed;
+    border-radius: 25px;
+}
+.teacher--detail2 {
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    color: #526d82;
+    
+}
+.teacher--detail2 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.namelist--container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: space-between;
+    width: 100%;
+    border: 3px solid #526d82;
+    border-radius: 20px;
+    padding: 15px;
+}

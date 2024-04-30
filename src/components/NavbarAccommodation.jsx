@@ -1,15 +1,16 @@
 import React from 'react'
 import '../styles/navbar.css'
 import Button from 'react-bootstrap/Button'
+import { Link } from "react-router-dom";
 
 const NavbarAccomodation = () => {
   return (
-    <div className='navbar'>
+    <nav className='navbar'>
         <ul>
-            <Button className='bar3'>Recommended Dormitory</Button>
-            <Button className='bar3'>Reservation Dormitory</Button>
+            <Link to = "/Accommodation" className='bar3'>Recommended Dormitory</Link>
+            <Link to = "/ReservationDorm" className='bar3'>Reservation Dormitory</Link>
         </ul>
-    </div>
+    </nav>
   )
 }
 

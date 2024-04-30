@@ -7,7 +7,7 @@ const Internship = () => {
   return (
     <div>
       <div className="dashboard--content2">
-        <div className="intern--header">
+        <div className="sub--header">
           <h2>Internship</h2>
         </div>
         <Card />

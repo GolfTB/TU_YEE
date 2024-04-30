@@ -180,11 +180,11 @@ button:hover {
 }
 .dashboard--content {
     background: #fff;
-    height: 700px;
+    height: auto;
     flex: 1;
     border-radius: 20px;
     padding: 2rem;
     display: flex;
     gap: 1.5rem;
     justify-content: space-between;
-  }
+}

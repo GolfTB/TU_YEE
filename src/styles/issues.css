@@ -1,0 +1,59 @@
+.new--issue {
+    border: 3px solid #526d82;
+    width: 45%;
+    border-radius: 20px;
+    height: 400px;
+
+    display: flex;
+
+    flex-direction: column;
+    padding: 1rem;
+    /*flex: 1;align-items: start;*/
+    gap: 1.5rem;
+}
+.history--issue {
+    background: #dde6ed;
+    width: 45%;
+    height: 400px;
+    border-radius: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+    padding: 1rem;
+    /*flex: 1;align-items: start;*/
+    gap: 1.5rem;
+}
+.form--issue {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    color: #526d82;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.form--but {
+    font-size: 16px;
+}
+.form--size {
+    font-size: 18px;
+    font-weight: 500;
+}
+.history--tab {
+    background: #ffffff;
+    border: 2px solid #526d82;
+    width: 95%;
+    height: auto;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+.history--tab:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.his--detail {
+    font-weight: 500;
+    padding: 5px;
+}

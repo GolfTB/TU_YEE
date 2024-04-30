@@ -1,16 +1,17 @@
 import React from 'react'
 import '../styles/navbar.css'
 import Button from 'react-bootstrap/Button'
+import { Link } from "react-router-dom";
 
 const NavbarConsulting = () => {
   return (
-    <div className='navbar'>
+    <nav className='navbar'>
         <ul>
-            <Button className='bar3'>Communication</Button>
-            <Button className='bar3'>Health</Button>
-            <Button className='bar3'>General Issue</Button>
+            <Link to = "/Consulting" className='bar3'>Communication</Link>
+            <Link to = "/Health" className='bar3'>Health</Link>
+            <Link to = "/General" className='bar3'>General Issue</Link>
         </ul>
-    </div>
+    </nav>
   )
 }
 
