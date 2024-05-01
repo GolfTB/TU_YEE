@@ -1,12 +1,12 @@
 import React from "react";
-import Sidebar from "../components/Sidebar";
 import NavbarCommunity from "../components/NavbarCommunity";
 import Community from "../components/Community"
+import SidebarCommu from "../components/SidebarCommu";
 
 function Communitypage() {
   return (
     <div className="dashboard">
-      <Sidebar />
+      <SidebarCommu />
       <div className="barcontent">
         <NavbarCommunity />
         <Community/>

@@ -1,11 +1,11 @@
 import React from 'react'
-import Sidebar from '../components/Sidebar'
 import NavbarConsulting from '../components/NavbarConsulting';
 import Communication from "../components/Communication"
+import SidebarConsulting from '../components/SidebarConsulting';
 function Consulting() {
   return (
     <div className='dashboard'>
-      <Sidebar />
+      <SidebarConsulting />
       <div className="barcontent">
       <NavbarConsulting/>
       <Communication />

@@ -5,7 +5,8 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider} from "react-router-dom";
 
-import  Home  from "./pages/Home.jsx";
+
+import LoginPage from "./pages/LoginPage.jsx";
 import Learning from "./pages/Learning.jsx";
 import Internshippage from "./pages/Internshippage.jsx"
 import Scholarshippage from "./pages/Scholarshippage.jsx"
@@ -29,7 +30,7 @@ import PublicBoard from "./pages/PublicBoard.jsx"
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <LoginPage />,
   },
   {
     path: "/Learning",
@@ -83,6 +84,10 @@ const router = createBrowserRouter([
   {
     path: "/PublicBoard",
     element: <PublicBoard />,
+  },
+  {
+    path: "/LoginPage",
+    element: <LoginPage />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -1,12 +1,12 @@
 import React from "react";
-import Sidebar from "../components/Sidebar";
 import Internship from "../components/Internship";
 import NavbarLearning from "../components/NavbarLearning";
+import SidebarLearning from "../components/SidebarLearning";
 
 function Internshippage() {
   return (
     <div className="dashboard">
-      <Sidebar />
+      <SidebarLearning />
       <div className="barcontent">
         <NavbarLearning />
         <Internship />

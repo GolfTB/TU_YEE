@@ -1,12 +1,12 @@
 import React from "react";
-import Sidebar from "../components/Sidebar";
 import Scholarship from "../components/Scholarship";
 import NavbarLearning from "../components/NavbarLearning";
+import SidebarLearning from "../components/SidebarLearning";
 
 function Scholarshippage() {
   return (
     <div className="dashboard">
-      <Sidebar />
+      <SidebarLearning />
       <div className="barcontent">
         <NavbarLearning />
         <Scholarship />

@@ -1,12 +1,12 @@
 import React from "react";
-import Sidebar from "../components/Sidebar";
 import NavbarConvenient from "../components/NavbarConvenient";
 import Transportation from '../components/Transportation'
+import SidebarConvenient from "../components/SidebarConvenient";
 function Convenient() {
-  
+
   return (
       <div className='dashboard'>
-        <Sidebar />
+        <SidebarConvenient />
         <div className="barcontent">
         <NavbarConvenient/>
         <Transportation />

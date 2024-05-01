@@ -1,13 +1,13 @@
 import React from "react";
-import Sidebar from "../components/Sidebar";
 import NavbarConsulting from "../components/NavbarConsulting";
 import Issues from "../components/Issues";
+import SidebarConsulting from "../components/SidebarConsulting";
 
 
 const Health = () => {
   return (
     <div className='dashboard'>
-      <Sidebar />
+      <SidebarConsulting />
       <div className="barcontent">
         <NavbarConsulting />
         <Issues />

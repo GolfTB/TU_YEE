@@ -1,11 +1,11 @@
 import React from "react";
-import Sidebar from "../components/Sidebar";
 import NavbarAccommodation from "../components/NavbarAccommodation";
 import ResDorm from '../components/ResDorm'
+import SidebarAccom from "../components/SidebarAccom";
 function ReservationDorm() {
   return (
       <div className='dashboard'>
-        <Sidebar />
+        <SidebarAccom />
         <div className="barcontent">
         <NavbarAccommodation/>
         <ResDorm />

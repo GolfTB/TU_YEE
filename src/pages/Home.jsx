@@ -1,11 +1,11 @@
 import React from 'react'
-import Sidebar from '../components/Sidebar'
 import NavbarLearning from '../components/NavbarLearning';
+import SidebarLearning from '../components/SidebarLearning';
 
 function Home() {
   return (
       <div className='dashboard'>
-        <Sidebar />
+        <SidebarLearning />
         <div className="barcontent">
           <NavbarLearning/>
   

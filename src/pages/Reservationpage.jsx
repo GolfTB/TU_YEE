@@ -1,12 +1,12 @@
 import React from "react";
-import Sidebar from "../components/Sidebar";
 import NavbarConvenient from "../components/NavbarConvenient";
 import Reservation from "../components/Reservation";
+import SidebarConvenient from "../components/SidebarConvenient";
 
 function Reservationpage() {
   return (
     <div className="dashboard">
-      <Sidebar />
+      <SidebarConvenient />
       <div className="barcontent">
         <NavbarConvenient />
         <Reservation />

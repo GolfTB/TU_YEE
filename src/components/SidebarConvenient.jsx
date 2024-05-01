@@ -4,7 +4,7 @@ import "../styles/sidebar.css";
 
 import { Link } from "react-router-dom";
 
-const Sidebar = () => {
+const SidebarConvenient = () => {
   return (
     <div className="menu">
       <div className="logo">
@@ -13,13 +13,13 @@ const Sidebar = () => {
       </div>
 
       <nav className="menu--list">
-        <Link to="/Learning" className="item active">
+        <Link to="/Learning" className="item">
           Learning
         </Link>
         <Link to="/Consulting" className="item">
           Consulting
         </Link>
-        <Link to="/Convenient" className="item">
+        <Link to="/Convenient" className="item active">
           Convenient
         </Link>
         <Link to="/Accommodation" className="item">
@@ -28,9 +28,12 @@ const Sidebar = () => {
         <Link to="/Communitypage" className="item">
           Community
         </Link>
+        <Link to="/LoginPage" className="item">
+          Logout
+        </Link>
       </nav>
     </div>
   );
 };
 
-export default Sidebar;
+export default SidebarConvenient;

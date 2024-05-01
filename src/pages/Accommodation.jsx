@@ -1,12 +1,12 @@
 import React from "react";
-import Sidebar from "../components/Sidebar";
+import SidebarAccom from "../components/SidebarAccom";
 import NavbarAccomodation from "../components/NavbarAccommodation";
 import RecDorm from "../components/RecDorm";
 
 function Accommodation() {
   return (
     <div className="dashboard">
-      <Sidebar />
+      <SidebarAccom />
       <div className="barcontent">
         <NavbarAccomodation />
         <RecDorm />
