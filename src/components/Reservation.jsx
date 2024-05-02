@@ -1,6 +1,10 @@
 import React from 'react'
 import '../styles/reserve.css'
-import cat from '../assets/cat.jpg'
+import music from '../assets/music.jpeg'
+import library from '../assets/Library.jpeg'
+import Bas from '../assets/Bas.jpeg'
+import biglib from '../assets/biglib.jpeg'
+
 
 const Reservation = () => {
     return (
@@ -10,22 +14,22 @@ const Reservation = () => {
             </div>
             <div className="reserve-container">
                 <div className="reserve-box">
-                    <img src={cat} alt='' />
+                    <img src={library} alt='' />
                     <h3>Learning Space</h3>
                 </div>
                 <div className="reserve-box">
-                    <img src={cat} alt='' />
+                    <img src={music} alt='' />
                     <h3>Music Studio</h3>
                 </div>
                 <div className="reserve-box">
-                    <img src={cat} alt='' />
+                    <img src={Bas} alt='' />
                     <h3>Sports Stadium</h3>
                 </div>
             </div>
             <div className="reservation">
                 <div className="reserve-learn">
                     <h3>Learning Space</h3>
-                    <img src={cat} alt='' />
+                    <img src={biglib} alt='' />
                     <div className="reserve-detail">
                         <div>Room : </div>
                         <input className='re-form--size' defaultValue="tutor 10" />

@@ -4,6 +4,7 @@ import ProfileHeader from './ProfileHeader'
 import userImage from '../assets/cat.jpg'
 import classImage from '../assets/class.png'
 import Content from './Content'
+import ajjack from '../assets/ajjack.jpg'
 
 const Profile = () => {
   return (
@@ -31,7 +32,7 @@ const Profile = () => {
 
             <div className="user--container-2">
               <div className="course">
-                <img src={userImage} alt='' />
+                <img src={ajjack} alt='' />
                 <div className="user-courses">
                   <h4 className="title">Advisor.xxxx xxxxxxx</h4>
                   <h1 className="duration">Office room : xxx</h1>

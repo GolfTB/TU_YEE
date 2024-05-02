@@ -27,6 +27,7 @@
 .reserve-box img {
     border-radius: 10px;
     width: 65%;
+    height: 60%;
 }
 .reservation {
     display: flex;
