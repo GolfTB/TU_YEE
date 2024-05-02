@@ -27,6 +27,8 @@ import PublicBoard from "./pages/PublicBoard.jsx"
 
 
 
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -89,6 +91,7 @@ const router = createBrowserRouter([
     path: "/LoginPage",
     element: <LoginPage />,
   },
+
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
