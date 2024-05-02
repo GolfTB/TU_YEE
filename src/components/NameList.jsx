@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/TeacherList.css'
-import userImage from '../assets/cat.jpg'
-
+import ajjack from '../assets/ajjack.jpg'
 const nameList = [
     {
       name: 'ASSOC. PROF. DR. Weerachai Anotaipaiboon',
@@ -24,7 +23,7 @@ const NameList = () => {
           {nameList.map((nameList) =>(
           <div className="list2">
             <div className="teacher--detail2">
-              <img src={userImage} alt='' /> 
+              <img src={ajjack} alt='' /> 
               <h5 className='bar'>{nameList.name}</h5>
               <h5 className='bar'>{nameList.department}</h5>
             </div>

@@ -2,8 +2,7 @@ import React from 'react'
 import '../styles/communication.css'
 import { BiSearch } from 'react-icons/bi'
 import NameList from './NameList'
-import userImage from '../assets/cat.jpg'
-
+import ajjack from '../assets/ajjack.jpg'
 
 const Communication = () => {
     return (
@@ -19,7 +18,7 @@ const Communication = () => {
                 <NameList />
                 <div className="finder">
                     <h3>Information</h3>
-                    <img src={userImage} alt='' /> 
+                    <img src={ajjack} alt='' /> 
                     <div className="info-detail">ASSOC. PROF. DR. Weerachai Anotaipaiboon</div>
                     <div className="info-detail">anweerac@tu.ac.th</div>
                     <div className="info-detail">09X-XXX-XXXX</div>
